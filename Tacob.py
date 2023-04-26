@@ -2,9 +2,11 @@ from time import sleep
 import datetime
 import pyautogui, sys
 import pyautogui
-from time import sleep
+from time import sleep 
+import xlsxwriter
 import os
 
+CaminhoArquivo = "C:\Users\wellington.silva\Downloads"
 #String HORA ATUAL
 data_atual = datetime.datetime.now()
 #String dia atual
@@ -78,5 +80,5 @@ dir = '/Downloads'
 old_file = os.path.join(dir, '% CE x AGENCIA - Tableros para Agencias - Gest Cli - INC.xlsx')
 new_file = os.path.join(dir, hoje_formatado)
 os.rename(old_file, new_file)
-
+os.rename('/path/to/dir/filename.txt', '/path/to/dir/new_filename.txt')
 #DESCOBRIR CODIGO PARA RENOMEAR ARQUIVOS DO EXCEL, REFERENTE AO DIA EM QUE FEZ O DOWNLOAD
