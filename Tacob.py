@@ -27,9 +27,9 @@ pyautogui.write('https://tacob.adminml.com/login')
 pyautogui.press('enter')
 
 pyautogui.click(1026,315,duration=1)
-pyautogui.write('rodrigo@link.com')  
+pyautogui.write('')  
 pyautogui.click(966,415,duration=1)
-pyautogui.write('!@#ControlDesk23')
+pyautogui.write('')
 pyautogui.press('enter')
 
 #4° - clicar em tableros
